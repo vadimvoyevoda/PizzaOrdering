@@ -1,0 +1,13 @@
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\bin\Debug\PizzaOnline.exe.config
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\bin\Debug\PizzaOnline.exe
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\bin\Debug\PizzaOnline.pdb
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\obj\Debug\PizzaOnline.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\obj\Debug\MainWindow.baml
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\obj\Debug\MainWindow.g.cs
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\obj\Debug\App.g.cs
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\obj\Debug\PizzaOnline_MarkupCompile.cache
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\obj\Debug\PizzaOnline.g.resources
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\obj\Debug\PizzaOnline.Properties.Resources.resources
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\obj\Debug\PizzaOnline.csproj.GenerateResource.Cache
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\obj\Debug\PizzaOnline.exe
+C:\Users\Вадим\Desktop\PizzaOnline\PizzaOnline\obj\Debug\PizzaOnline.pdb
