@@ -24,5 +24,17 @@ namespace PizzaOnline
         {
             InitializeComponent();
         }
+
+        public void SetTabItemsWidth()
+        {
+            double width = tcMain.ActualWidth - tcMain.BorderThickness.Left - tcMain.BorderThickness.Right;
+            tiMenu.Width = width / 2 - 1;
+            tiConstr.Width = width / 2 - 1;
+        }
+        
+        private void Window_SizeChanged_1(object sender, SizeChangedEventArgs e)
+        {
+            SetTabItemsWidth();
+        }
     }
 }
