@@ -13,7 +13,7 @@ namespace DataModel.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201511111334367_CreateDatabase"; }
+            get { return "201511121116313_CreateDatabase"; }
         }
         
         string IMigrationMetadata.Source

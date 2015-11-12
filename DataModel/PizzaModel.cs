@@ -19,15 +19,16 @@ namespace DataModel
         [MaxLength(50)]
         public string Name { get; set; }
         public string Photo { get; set; }
-        public string Description { get; set; }
-        [Required]
-        public IEnumerable<Ingredient> Ingredients { get; set; }
+        public string Description { get; set; }        
         [Required]
         public int Weight { get; set; }
         [Required]
         public double Price { get; set; }
         [Required]
         public bool IsStandart { get; set; }
+
+        [Required]
+        public virtual IEnumerable<Ingredient> Ingredients { get; set; }
     }
 
     [Table("Ingredients")]
@@ -51,7 +52,7 @@ namespace DataModel
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
         public int Id { get; set; }
-        public Pizza Pizza { get; set; }
+        public virtual Pizza Pizza { get; set; }
         [Required]
         public int Amount { get; set; }        
     }
@@ -75,7 +76,7 @@ namespace DataModel
         [Required]
         public double TotalSum { get; set; }
         [Required]
-        public IEnumerable<OrderItem> Items { get; set; }
+        public virtual IEnumerable<OrderItem> Items { get; set; }
     }
 
     [Table("Customers")]
@@ -89,6 +90,6 @@ namespace DataModel
         [MaxLength(13)]
         public string Phone { get; set; }
 
-        public IEnumerable<Order> Orders { get; set; }
+        public virtual IEnumerable<Order> Orders { get; set; }
     }
 }
