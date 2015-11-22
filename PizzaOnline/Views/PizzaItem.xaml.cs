@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
 using PizzaOnline.Models;
 
@@ -25,17 +26,13 @@ namespace PizzaOnline.Views
 
         private void btnUp_Click(object sender, RoutedEventArgs e)
         {
-            throw new System.NotImplementedException();
+            Source.Counter++;
         }
 
         private void btnDown_Click(object sender, RoutedEventArgs e)
         {
-            throw new System.NotImplementedException();
+            Source.Counter--;
         }
 
-        private void txtNum_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            
-        }
     }
 }
