@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace PizzaOnline
-{
+{//парар
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
